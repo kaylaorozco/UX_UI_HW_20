@@ -1,0 +1,295 @@
+body {
+    background-color: #262626;
+}
+
+h1 {
+    font-family: 'sofia-pro', sans-serif;
+    font-size: 60px;
+    color: #d1a16c;
+}
+h2 {
+    font-family: 'sofia-pro', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #d1a16c;
+    text-align: center;
+    margin-top: 100px;
+}
+h3 {
+    font-family: 'sofia-pro', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #f2f2f2;
+}
+p {
+    font-family: 'sofia-pro', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #f2f2f2;
+}
+
+/*navbar*/
+.navbar {
+    position: sticky;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 60px;
+}
+
+.nav-link {
+  color: #f2f2f2 !important;
+  font-family: 'Sofia-Pro', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-right: 60px;
+}
+.nav-link:hover {
+  color: #d1a16c !important;
+  transition: all ease 0.5s;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+/*breadcrumbs*/
+.breadcrumb {
+    margin-left: 60px;
+}
+.breadcrumb-item {
+    color: #f2f2f2 !important;
+}
+.breadcrumb a {
+    color: #f2f2f2;
+}
+
+/* vicinity intro */
+
+.vicinity-title {
+    text-align: center;
+}
+.quote p {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.intro p {
+    text-align: left;
+    margin-top: 41.5px;
+}
+.breakdown-title {
+    text-decoration: underline;
+    text-align: left;
+}
+
+.breakdown {
+    margin-top: 30px;
+    padding-left: 110px;
+}
+.breakdown p {
+    text-align: left;
+    padding: 0;
+    line-height: 0;
+    margin-top: 20px;
+}
+
+/* jumbroton */
+
+.vicinity-hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    padding-top: 50px;
+}
+
+/* User Research */
+
+.user-research p{
+    text-align: left;
+    padding: 41.5px;
+}
+
+.survey {
+    width: 45vw;
+    padding-left: 80px;
+}
+.survey-obj {
+    padding-left: 41.5px;
+    padding-right: 80px;
+}
+
+/* definition & synthesis */
+
+.def-text p {
+    padding: 41.5px;
+}
+.problem-statement {
+    line-height: 40px;
+}
+
+/* Ideation */
+
+.ideation p {
+    padding: 41.5px;
+}
+
+.user-journey-map {
+    padding-left: 100px;
+    padding-right: 0;
+}
+
+.persona-text {
+    padding-right: 100px;
+    padding-left: 0;
+}
+
+/* prototyping */
+
+.prototype p {
+    padding: 41.5px;
+}
+.proto-img img {
+    width: 20vw;
+}
+
+/* User testing */
+
+.user-test p {
+    padding: 41.5px;
+}
+
+.gif {
+    display: flex;
+    justify-content: center;
+}
+
+.user-test-video {
+    width: 25vw;
+}
+
+/* conclusion */
+
+.conclusion p {
+    padding: 41.5px;
+}
+.team {
+    display: flex;
+    justify-content: center;
+}
+.team-photo {
+    width: 30vw;
+
+}
+
+/* future opportunities */
+
+.future p {
+    padding: 41.5px;
+}
+
+.divide {
+    display: flex;
+    justify-content: center;
+}
+.divider {
+    border-top: 3px solid #d1a16c;
+    width: 80vw;
+}
+
+/* next case study */
+
+.next-study {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.next-study p {
+    padding: 41.5px;
+    text-align: center;
+}
+
+button {
+    color: #000;
+    background-color: #d1a16c;
+    border-radius: 8px;
+    border-color: #d1a16c;
+    padding: 10px 28px;
+    margin-bottom: 41.5px;
+    text-transform: uppercase;
+}
+
+.next:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+    outline: none;
+    transform: translateY(-7px);
+}
+.next-section {
+    display: flex;
+    justify-content: center;
+}
+
+/* footer */
+
+.footer {
+    margin-top: 0px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    height: 50px;
+    width: 100%;
+  }
+  .footer p {
+    font-size: 18px;
+    color: #d1a16c;
+  }
+
+  @media screen and (max-width:600px) {
+    h2 {
+        margin-top: 40px;
+    }
+    .logo {
+        margin: 0px;
+      }
+    .breakdown {
+        padding-left: 10px;
+    }
+
+    .survey-image {
+        display: flex;
+        justify-content: center;
+    }
+    .survey {
+        padding-left: 0;
+        width: 80vw;
+    }
+    .survey-obj {
+        padding: 41.5px;
+    }
+    .user-journey-map {
+        padding-left: 0;
+    }
+    .persona-text {
+        padding: 41.5px;
+    }
+    .proto-sec {
+        display: flex;
+        justify-content: center;
+    }
+    .proto-img img {
+        width: 60vw;
+        padding: 15px;
+    }
+    .user-test-video {
+        width: 60vw;
+    }
+    .team-photo {
+        width: 60vw;
+    }
+  }
