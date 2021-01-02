@@ -254,6 +254,7 @@ button {
     h2 {
         margin-top: 40px;
     }
+    
     .logo {
         margin: 0px;
       }
@@ -279,12 +280,15 @@ button {
         padding: 41.5px;
     }
     .proto-sec {
+        width: 100vw;
         display: flex;
         justify-content: center;
+        text-align: center;
     }
     .proto-img img {
         width: 60vw;
         padding: 15px;
+        text-align: center;
     }
     .user-test-video {
         width: 60vw;
